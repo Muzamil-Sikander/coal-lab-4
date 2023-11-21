@@ -1,0 +1,58 @@
+$date
+	Tue Nov 21 13:45:08 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 32 ! x [31:0] $end
+$var reg 32 " a [31:0] $end
+$var reg 2 # alu [1:0] $end
+$var reg 32 $ b [31:0] $end
+$scope module dut $end
+$var wire 32 % a [31:0] $end
+$var wire 32 & a_and_b [31:0] $end
+$var wire 32 ' a_or_b [31:0] $end
+$var wire 2 ( alu [1:0] $end
+$var wire 32 ) b [31:0] $end
+$var wire 32 * x [31:0] $end
+$var wire 1 + z $end
+$var wire 32 , sum [31:0] $end
+$var wire 32 - mux [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 -
+b0 ,
+0+
+bz *
+b0 )
+b10 (
+b0 '
+b0 &
+b0 %
+b0 $
+b10 #
+b0 "
+bz !
+$end
+#10
+b11111111111111111111111111110000 -
+b10010 '
+b10000 &
+b11 #
+b11 (
+b10000 $
+b10000 )
+b10 ,
+b10010 "
+b10010 %
+#20
